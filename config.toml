@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+
+baseurl = "https://ecstatic-varahamihira-84fdf9.netlify.com"
+languageCode = "ru-ru"
+title = "Applied.Talks"
+# theme
+theme = "hugo-now"
+# google analytics
+GoogleAnalytics = "UA-XXXXXX"
+disqusShortname = "meetups-2"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Chelyabinsk"
+  author = "Denis Nasyrov"
+  keywords = ["applied tech", "meetups"]
+  displayauthor = false
+  # pygments
+  PygmentsUseClasses = true
+  PygmentsCodeFences = true
+  # pagination
+  paginate = 10
+  paginatePath = "page"
+  comments = true
